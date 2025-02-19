@@ -108,7 +108,7 @@ class Core {
         bot.StartReceiving(HandleTGUpdate, HandleTGError, receiverOptions, cts.Token);
     }
     public Core() {
-        bot = new("7487805129:AAEqQAgR4qdT84_71x0FOr0UwyP1CHYRnXI");
+        bot = new(""); // place token here ! ! ! !
         clients = new();
     }
 }
